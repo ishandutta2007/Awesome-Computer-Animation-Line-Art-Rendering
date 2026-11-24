@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Computer-Animation-Line-Art-Rendering?color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -68,64 +68,64 @@ The market displays a **bifurcated hybrid ecosystem: highly concentrated at the 
 
 *Curated collection sorted in descending order by repository GitHub Stargazers count.*
 
-- **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** [![GitHub stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers)  
+- **[FFmpeg](https://github.com/FFmpeg/FFmpeg)** [![GitHub_Stars](https://img.shields.io/github/stars/FFmpeg/FFmpeg?style=social&color=white)](https://github.com/FFmpeg/FFmpeg/stargazers)  
   🎬 Universal command-line multimedia framework used across animation pipelines for assembling lossless frame sequences, generating ProRes/WebM transparency passes, and palette-quantized GIF encoding.
 
-- **[Manim Community](https://github.com/ManimCommunity/manim)** [![GitHub stars](https://img.shields.io/github/stars/ManimCommunity/manim?style=social&color=white)](https://github.com/ManimCommunity/manim/stargazers)  
+- **[Manim Community](https://github.com/ManimCommunity/manim)** [![GitHub_Stars](https://img.shields.io/github/stars/ManimCommunity/manim?style=social&color=white)](https://github.com/ManimCommunity/manim/stargazers)  
   📐 Programmatic Python animation engine built for rendering mathematically precise vector line art, geometrical transformations, and animated technical explainers.
 
-- **[Aseprite](https://github.com/aseprite/aseprite)** [![GitHub stars](https://img.shields.io/github/stars/aseprite/aseprite?style=social&color=white)](https://github.com/aseprite/aseprite/stargazers)  
+- **[Aseprite](https://github.com/aseprite/aseprite)** [![GitHub_Stars](https://img.shields.io/github/stars/aseprite/aseprite?style=social&color=white)](https://github.com/aseprite/aseprite/stargazers)  
   👾 Open-source pixel-art and animated sprite tool featuring frame-by-frame onion skinning, color palettes, stroke outlines, and timeline sprite sheet generation.
 
-- **[Blender Grease Pencil](https://github.com/blender/blender)** [![GitHub stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers)  
+- **[Blender Grease Pencil](https://github.com/blender/blender)** [![GitHub_Stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers)  
   🖌️ Full-featured open-source 3D/2D hybrid animation suite enabling artists to draw vector strokes directly in 3D viewport space, calculate geometric line-art outlines, and render stylized NPR/cel-shaded animations.
 
-- **[Rough.js](https://github.com/rough-stuff/rough)** [![GitHub stars](https://img.shields.io/github/stars/rough-stuff/rough?style=social&color=white)](https://github.com/rough-stuff/rough/stargazers)  
+- **[Rough.js](https://github.com/rough-stuff/rough)** [![GitHub_Stars](https://img.shields.io/github/stars/rough-stuff/rough?style=social&color=white)](https://github.com/rough-stuff/rough/stargazers)  
   ✏️ Lightweight graphics library that allows drawing in a sketchy, hand-drawn-like style using Canvas and SVG elements, perfect for generative organic line-art rendering.
 
-- **[Motion Canvas](https://github.com/motion-canvas/motion-canvas)** [![GitHub stars](https://img.shields.io/github/stars/motion-canvas/motion-canvas?style=social&color=white)](https://github.com/motion-canvas/motion-canvas/stargazers)  
+- **[Motion Canvas](https://github.com/motion-canvas/motion-canvas)** [![GitHub_Stars](https://img.shields.io/github/stars/motion-canvas/motion-canvas?style=social&color=white)](https://github.com/motion-canvas/motion-canvas/stargazers)  
   ✨ TypeScript-first programmatic animation tool tailored for creating clean vector motion graphics, animated line drawings, and interactive visual explanations.
 
-- **[Krita](https://github.com/KDE/krita)** [![GitHub stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
+- **[Krita](https://github.com/KDE/krita)** [![GitHub_Stars](https://img.shields.io/github/stars/KDE/krita?style=social&color=white)](https://github.com/KDE/krita/stargazers)  
   🎨 Professional open-source creative painting and 2D animation studio equipped with raster/vector brush stabilizers, onion skinning, audio track playback, and storyboard management.
 
-- **[LibreSprite](https://github.com/LibreSprite/LibreSprite)** [![GitHub stars](https://img.shields.io/github/stars/LibreSprite/LibreSprite?style=social&color=white)](https://github.com/LibreSprite/LibreSprite/stargazers)  
+- **[LibreSprite](https://github.com/LibreSprite/LibreSprite)** [![GitHub_Stars](https://img.shields.io/github/stars/LibreSprite/LibreSprite?style=social&color=white)](https://github.com/LibreSprite/LibreSprite/stargazers)  
   🕹️ Free and open-source fork of Aseprite designed for animated sprites, pixel line art, frame looping, and retro digital 2D animation.
 
-- **[OpenToonz](https://github.com/opentoonz/opentoonz)** [![GitHub stars](https://img.shields.io/github/stars/opentoonz/opentoonz?style=social&color=white)](https://github.com/opentoonz/opentoonz/stargazers)  
+- **[OpenToonz](https://github.com/opentoonz/opentoonz)** [![GitHub_Stars](https://img.shields.io/github/stars/opentoonz/opentoonz?style=social&color=white)](https://github.com/opentoonz/opentoonz/stargazers)  
   🏮 Production-proven 2D animation suite customized by Studio Ghibli, featuring GTS optical paper scanning, vector/raster ink-and-paint, plastic mesh rigging, and nodal special effects.
 
-- **[GIMP](https://github.com/GNOME/gimp)** [![GitHub stars](https://img.shields.io/github/stars/GNOME/gimp?style=social&color=white)](https://github.com/GNOME/gimp/stargazers)  
+- **[GIMP](https://github.com/GNOME/gimp)** [![GitHub_Stars](https://img.shields.io/github/stars/GNOME/gimp?style=social&color=white)](https://github.com/GNOME/gimp/stargazers)  
   🖼️ Extensible open-source image manipulation program supporting brush strokes, path-based line drawing, line art extraction, and GAP (GIMP Animation Package) frame sequencing.
 
-- **[Perfect Freehand](https://github.com/steveruizok/perfect-freehand)** [![GitHub stars](https://img.shields.io/github/stars/steveruizok/perfect-freehand?style=social&color=white)](https://github.com/steveruizok/perfect-freehand/stargazers)  
+- **[Perfect Freehand](https://github.com/steveruizok/perfect-freehand)** [![GitHub_Stars](https://img.shields.io/github/stars/steveruizok/perfect-freehand?style=social&color=white)](https://github.com/steveruizok/perfect-freehand/stargazers)  
   ✒️ Minimal JavaScript library that draws smooth, organic variable-width line-art strokes based on pointer speed and pressure data.
 
-- **[MyPaint](https://github.com/mypaint/mypaint)** [![GitHub stars](https://img.shields.io/github/stars/mypaint/mypaint?style=social&color=white)](https://github.com/mypaint/mypaint/stargazers)  
+- **[MyPaint](https://github.com/mypaint/mypaint)** [![GitHub_Stars](https://img.shields.io/github/stars/mypaint/mypaint?style=social&color=white)](https://github.com/mypaint/mypaint/stargazers)  
   📝 Distraction-free digital drawing and line-art program featuring infinite canvas support and a responsive brush engine designed for sketching and preliminary animation linework.
 
-- **[Synfig Studio](https://github.com/synfig/synfig)** [![GitHub stars](https://img.shields.io/github/stars/synfig/synfig?style=social&color=white)](https://github.com/synfig/synfig/stargazers)  
+- **[Synfig Studio](https://github.com/synfig/synfig)** [![GitHub_Stars](https://img.shields.io/github/stars/synfig/synfig?style=social&color=white)](https://github.com/synfig/synfig/stargazers)  
   🦴 Industrial-strength 2D vector animation system that eliminates manual in-between frame drawing using mathematical path morphing, bones, and cutout distortion layers.
 
-- **[Friction](https://github.com/friction2d/friction)** [![GitHub stars](https://img.shields.io/github/stars/friction2d/friction?style=social&color=white)](https://github.com/friction2d/friction/stargazers)  
+- **[Friction](https://github.com/friction2d/friction)** [![GitHub_Stars](https://img.shields.io/github/stars/friction2d/friction?style=social&color=white)](https://github.com/friction2d/friction/stargazers)  
   🎞️ Modern open-source 2D vector animation desktop software (successor to Enve) offering curve graph interpolation, expression scripting, sound integration, and raster brush FX.
 
-- **[Pencil2D](https://github.com/pencil2d/pencil)** [![GitHub stars](https://img.shields.io/github/stars/pencil2d/pencil?style=social&color=white)](https://github.com/pencil2d/pencil/stargazers)  
+- **[Pencil2D](https://github.com/pencil2d/pencil)** [![GitHub_Stars](https://img.shields.io/github/stars/pencil2d/pencil?style=social&color=white)](https://github.com/pencil2d/pencil/stargazers)  
   ✏️ Easy-to-use traditional hand-drawn 2D animation tool featuring seamless switching between raster and vector layers, onion-skin lightboxing, and keyframe management.
 
-- **[jdhruv14/line-art-animation](https://github.com/jdhruv14/line-art-animation)** [![GitHub stars](https://img.shields.io/github/stars/jdhruv14/line-art-animation?style=social&color=white)](https://github.com/jdhruv14/line-art-animation/stargazers)  
+- **[jdhruv14/line-art-animation](https://github.com/jdhruv14/line-art-animation)** [![GitHub_Stars](https://img.shields.io/github/stars/jdhruv14/line-art-animation?style=social&color=white)](https://github.com/jdhruv14/line-art-animation/stargazers)  
   🤖 Specialized open-source computer animation algorithm and line-art rendering project dedicated to automated line stroke extraction, motion smoothing, and expressive rendering pipelines.
 
-- **[Malt NPR Pipeline](https://github.com/bnpr/Malt)** [![GitHub stars](https://img.shields.io/github/stars/bnpr/Malt?style=social&color=white)](https://github.com/bnpr/Malt/stargazers)  
+- **[Malt NPR Pipeline](https://github.com/bnpr/Malt)** [![GitHub_Stars](https://img.shields.io/github/stars/bnpr/Malt?style=social&color=white)](https://github.com/bnpr/Malt/stargazers)  
   🔮 Non-Photorealistic Rendering (NPR) render engine for Blender supporting custom GLSL shaders, line art extractors, halftone screens, and Japanese anime cel-shading.
 
-- **[Wick Editor](https://github.com/Wicklets/wick-editor)** [![GitHub stars](https://img.shields.io/github/stars/Wicklets/wick-editor?style=social&color=white)](https://github.com/Wicklets/wick-editor/stargazers)  
+- **[Wick Editor](https://github.com/Wicklets/wick-editor)** [![GitHub_Stars](https://img.shields.io/github/stars/Wicklets/wick-editor?style=social&color=white)](https://github.com/Wicklets/wick-editor/stargazers)  
   🌐 Accessible, web-based 2D frame-by-frame animation and game creation platform with vector drawing tools and timeline JavaScript coding capabilities.
 
-- **[Tahoma2D](https://github.com/tahoma2d/tahoma2d)** [![GitHub stars](https://img.shields.io/github/stars/tahoma2d/tahoma2d?style=social&color=white)](https://github.com/tahoma2d/tahoma2d/stargazers)  
+- **[Tahoma2D](https://github.com/tahoma2d/tahoma2d)** [![GitHub_Stars](https://img.shields.io/github/stars/tahoma2d/tahoma2d?style=social&color=white)](https://github.com/tahoma2d/tahoma2d/stargazers)  
   📽️ Artist-focused fork of OpenToonz bringing an updated ergonomic user interface, integrated FFmpeg export, stop-motion webcam capture, and refined line vectorization.
 
-- **[TupiTube Desk](https://github.com/utopianlabco/tupitube.desk)** [![GitHub stars](https://img.shields.io/github/stars/utopianlabco/tupitube.desk?style=social&color=white)](https://github.com/utopianlabco/tupitube.desk/stargazers)  
+- **[TupiTube Desk](https://github.com/utopianlabco/tupitube.desk)** [![GitHub_Stars](https://img.shields.io/github/stars/utopianlabco/tupitube.desk?style=social&color=white)](https://github.com/utopianlabco/tupitube.desk/stargazers)  
   🎒 Educational 2D animation suite geared towards kids, students, and hobbyists with vector linework, stop-motion capture, and basic frame-by-frame tools.
 
 ---
