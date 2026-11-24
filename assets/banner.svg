@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%" style="background:#090d16; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; border-radius:16px; overflow:hidden;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.1" />
+    </linearGradient>
+
+    <radialGradient id="orb1" cx="20%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orb2" cx="85%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="orb3" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+    </pattern>
+
+    <!-- Filter for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    /* Continuous Keyframe Animations */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.15) translate(-10px, -10px); opacity: 1; }
+    }
+    @keyframes lineDash {
+      0% { stroke-dashoffset: 800; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes lineDashReverse {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 1000; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes floatPillDelayed {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+    }
+    @keyframes sweepGlow {
+      0% { transform: translateX(-100px) rotate(25deg); opacity: 0.1; }
+      50% { opacity: 0.35; }
+      100% { transform: translateX(1300px) rotate(25deg); opacity: 0.1; }
+    }
+
+    .anim-orb1 { animation: pulseOrb 9s ease-in-out infinite alternate; }
+    .anim-orb2 { animation: pulseOrb 12s ease-in-out infinite alternate-reverse; }
+    .anim-line1 {
+      stroke-dasharray: 220, 18;
+      animation: lineDash 18s linear infinite;
+    }
+    .anim-line2 {
+      stroke-dasharray: 140, 24;
+      animation: lineDashReverse 22s linear infinite;
+    }
+    .anim-line3 {
+      stroke-dasharray: 90, 15;
+      animation: lineDash 14s linear infinite;
+    }
+    .pill-float-1 { animation: floatPill 5s ease-in-out infinite; }
+    .pill-float-2 { animation: floatPillDelayed 6s ease-in-out infinite; }
+    .pill-float-3 { animation: floatPill 5.5s ease-in-out infinite 1s; }
+    .light-sweep { animation: sweepGlow 10s ease-in-out infinite; }
+  </style>
+
+  <!-- Base Canvas Background -->
+  <rect width="100%" height="100%" fill="url(#bgGlow)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Dynamic Glowing Ambient Orbs (Background layer) -->
+  <circle cx="240" cy="110" r="280" fill="url(#orb1)" class="anim-orb1" />
+  <circle cx="980" cy="310" r="320" fill="url(#orb2)" class="anim-orb2" />
+  <circle cx="620" cy="200" r="300" fill="url(#orb3)" />
+
+  <!-- Animated Vector Line Art Curves & Stroke Tweening Paths (In Background) -->
+  <g opacity="0.85">
+    <!-- Flowing Bezier Wave 1 -->
+    <path class="anim-line1" d="M -80 320 C 220 120, 420 440, 780 230 C 980 110, 1140 280, 1280 180" fill="none" stroke="url(#lineGrad1)" stroke-width="3" />
+    <path class="anim-line1" d="M -80 320 C 220 120, 420 440, 780 230 C 980 110, 1140 280, 1280 180" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.6" filter="url(#glow)" />
+
+    <!-- Flowing Bezier Wave 2 -->
+    <path class="anim-line2" d="M -50 90 C 260 270, 560 40, 840 290 C 1020 420, 1150 140, 1280 260" fill="none" stroke="url(#lineGrad2)" stroke-width="2.5" />
+    <path class="anim-line2" d="M -50 90 C 260 270, 560 40, 840 290 C 1020 420, 1150 140, 1280 260" fill="none" stroke="#818cf8" stroke-width="1" opacity="0.5" filter="url(#glow)" />
+
+    <!-- Stylized Spline Orbit 3 -->
+    <path class="anim-line3" d="M 120 380 Q 450 30, 850 140 T 1240 360" fill="none" stroke="#ec4899" stroke-width="1.8" opacity="0.35" />
+  </g>
+
+  <!-- Geometric Line Art Accent Shapes -->
+  <g opacity="0.3" transform="translate(980, 70)">
+    <polygon points="0,20 40,0 80,20 80,70 40,90 0,70" fill="none" stroke="#38bdf8" stroke-width="1.5" />
+    <polygon points="10,25 40,10 70,25 70,65 40,80 10,65" fill="none" stroke="#c084fc" stroke-width="1" stroke-dasharray="4,4" />
+    <line x1="40" y1="0" x2="40" y2="90" stroke="#818cf8" stroke-width="1" />
+  </g>
+  <g opacity="0.25" transform="translate(100, 260)">
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="6,6" />
+    <circle cx="40" cy="40" r="20" fill="none" stroke="#38bdf8" stroke-width="1" />
+  </g>
+
+  <!-- Foreground Content Block: Title & Subtitle prominently centered and crisp -->
+  <!-- Top Curated Ecosystem Pill Badge -->
+  <g transform="translate(460, 48)">
+    <rect x="0" y="0" width="280" height="32" rx="16" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1" />
+    <circle cx="18" cy="16" r="5" fill="#10b981" />
+    <text x="34" y="21" fill="#94a3b8" font-size="12.5" font-weight="600" letter-spacing="1">CURATED DEVELOPER ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="145" text-anchor="middle" fill="url(#titleGrad)" font-size="44" font-weight="800" letter-spacing="-0.5">
+    Computer Animation &amp; Line Art
+  </text>
+  <text x="600" y="195" text-anchor="middle" fill="#f8fafc" font-size="28" font-weight="700" letter-spacing="0.2">
+    2D/3D NPR Rendering, Vector Rigging &amp; Motion Graphics
+  </text>
+
+  <!-- Subtitle / Mission Statement -->
+  <text x="600" y="238" text-anchor="middle" fill="#94a3b8" font-size="15" font-weight="400" letter-spacing="0.3">
+    An authoritative catalog of open-source engines, SaaS suites, Grease Pencil shaders &amp; algorithmic linework
+  </text>
+
+  <!-- Interactive/Dynamic Feature Pills (Anchored in foreground below text) -->
+  <g transform="translate(110, 285)">
+    <!-- Pill 1: 3D Grease Pencil -->
+    <g class="pill-float-1" transform="translate(0, 0)">
+      <rect width="215" height="42" rx="21" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.2" />
+      <circle cx="22" cy="21" r="7" fill="#38bdf8" />
+      <text x="40" y="26" fill="#e2e8f0" font-size="13" font-weight="600">Blender Grease Pencil</text>
+    </g>
+
+    <!-- Pill 2: NPR Cel Shading -->
+    <g class="pill-float-2" transform="translate(240, 0)">
+      <rect width="205" height="42" rx="21" fill="#0f172a" fill-opacity="0.9" stroke="#818cf8" stroke-width="1.2" />
+      <circle cx="22" cy="21" r="7" fill="#818cf8" />
+      <text x="40" y="26" fill="#e2e8f0" font-size="13" font-weight="600">NPR Shaders &amp; Cel-Shade</text>
+    </g>
+
+    <!-- Pill 3: Frame-by-Frame -->
+    <g class="pill-float-1" transform="translate(470, 0)">
+      <rect width="225" height="42" rx="21" fill="#0f172a" fill-opacity="0.9" stroke="#c084fc" stroke-width="1.2" />
+      <circle cx="22" cy="21" r="7" fill="#c084fc" />
+      <text x="40" y="26" fill="#e2e8f0" font-size="13" font-weight="600">Traditional Frame-by-Frame</text>
+    </g>
+
+    <!-- Pill 4: Programmatic Motion -->
+    <g class="pill-float-3" transform="translate(720, 0)">
+      <rect width="250" height="42" rx="21" fill="#0f172a" fill-opacity="0.9" stroke="#f472b6" stroke-width="1.2" />
+      <circle cx="22" cy="21" r="7" fill="#f472b6" />
+      <text x="40" y="26" fill="#e2e8f0" font-size="13" font-weight="600">Code Animation (Manim/Canvas)</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Highlights -->
+  <g transform="translate(250, 368)">
+    <text x="350" y="16" text-anchor="middle" fill="#64748b" font-size="12" font-weight="500" letter-spacing="1.5">
+      OPEN-SOURCE RUNTIMES • COMMERCIAL SUITES • PYTHON ENGINES • RASTER &amp; VECTOR PIPELINES
+    </text>
+  </g>
+
+  <!-- Border Frame -->
+  <rect x="0.5" y="0.5" width="1199" height="419" rx="16" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.4" />
+</svg>
